@@ -1,0 +1,68 @@
+/* style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.content-wrapper {
+    width: 496px; /* Matches the width in the mockup */
+}
+
+.image-container {
+    position: relative;
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #cecece;
+}
+
+.main-image {
+    width: 100%;
+    display: block;
+}
+
+/* Specific Button Implementation */
+.spec-button {
+    /* Dimensions & Shape */
+    height: 22px;
+    border-radius: 8px;
+    padding: 0 10px;
+    
+    /* Colors & Border */
+    background-color: #ffffff;
+    border: 1px solid #2f2f2f;
+    color: #2f2f2f;
+    
+    /* Text Specs */
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    
+    /* Positioning (placed roughly as seen in mockup) */
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    
+    /* Smooth transition for hover */
+    transition: background-color 0.2s;
+}
+
+.spec-button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Info Panel Styling */
+.info-panel {
+    background-color: #e8f3ff; /* Matching the 'list select color' */
+    border-top: 1px solid #cfddff;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: #707070;
+    line-height: 1.6;
+}
+
+.hidden {
+    display: none;
+}
